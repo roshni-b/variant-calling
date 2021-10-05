@@ -1,8 +1,8 @@
 # Variant Calling Workflow Demo
 
 - Understanding the steps involved in variant calling.
-- Describing the types of data formats encountered during variant calling.
-- Using command line tools to perform variant calling. Run [variant_calling_workflow.ipynb](https://github.com/roshni-b/variant-calling/blob/main/variant_calling_workflow.ipynb) for demo.
+- Describing the types of data formats encountered during variant calling (FASTQ, SAM/BAM, VCF)
+- Using command line tools to perform variant calling. Run [variant_calling_workflow.ipynb](https://github.com/roshni-b/variant-calling/blob/main/variant_calling_workflow.ipynb) for a [bcftools](https://samtools.github.io/bcftools/bcftools.html) demo.
 
 
 Directory structure:
