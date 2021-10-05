@@ -4,8 +4,19 @@
 - Describing the types of data formats encountered during variant calling (FASTQ, SAM/BAM, VCF)
 - Using command line tools to perform variant calling. Run [variant_calling_workflow.ipynb](https://github.com/roshni-b/variant-calling/blob/main/variant_calling_workflow.ipynb) for a [bcftools](https://samtools.github.io/bcftools/bcftools.html) demo.
 
+### Variant Calling
 
-Directory structure:
+A variant call is a conclusion that there is a nucleotide difference vs. some reference at a given position in an individual genome or transcriptome, often referred to as a Single Nucleotide Polymorphism (SNP). The call is usually accompanied by an estimate of variant frequency and some measure of confidence.
+
+### Environment set-up
+
+```
+conda env create -f environment.yml
+conda activate vc-env
+```
+
+### Final Directory structure
+
 ```
 .
 ├── data
